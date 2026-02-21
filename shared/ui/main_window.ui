@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowWidget</class>
+ <widget class="QWidget" name="MainWindowWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="userLayout">
+      <item>
+       <widget class="QLabel" name="userLabel">
+        <property name="text">
+         <string>Current User Name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="userComboBox">
+        <property name="editable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="buttonLayout">
+      <item>
+       <widget class="QPushButton" name="addButton">
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="editButton">
+        <property name="text">
+         <string>Edit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="deleteButton">
+        <property name="text">
+         <string>Delete</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer1">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTableView" name="expenseTableView"/>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="filterGroupBox">
+      <property name="title">
+       <string>Filters</string>
+      </property>
+      <layout class="QHBoxLayout" name="filterLayout">
+       <item>
+        <widget class="QLabel" name="fromDateLabel">
+         <property name="text">
+          <string>From (YYYY-MM-DD)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="fromDateLineEdit">
+         <property name="placeholderText">
+          <string>Optional</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="toDateLabel">
+         <property name="text">
+          <string>To (YYYY-MM-DD)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="toDateLineEdit">
+         <property name="placeholderText">
+          <string>Optional</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="categoryFilterLabel">
+         <property name="text">
+          <string>Category</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="categoryFilterLineEdit">
+         <property name="placeholderText">
+          <string>Optional</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="applyFilterButton">
+         <property name="text">
+          <string>Apply Filter</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="summaryGroupBox">
+      <property name="title">
+       <string>Monthly Summary</string>
+      </property>
+      <layout class="QHBoxLayout" name="summaryLayout">
+       <item>
+        <widget class="QLabel" name="monthLabel">
+         <property name="text">
+          <string>Month (YYYY-MM)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="monthLineEdit">
+         <property name="placeholderText">
+          <string>e.g. 2026-02</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="summaryCategoryLabel">
+         <property name="text">
+          <string>Category (Optional)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="summaryCategoryLineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="summaryButton">
+         <property name="text">
+          <string>Summary</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="summaryResultLabel">
+         <property name="text">
+          <string>Total: 0.00</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

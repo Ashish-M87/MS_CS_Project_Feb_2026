@@ -1,0 +1,674 @@
+[
+  {
+    "user": "Ashish",
+    "date": "2025-02-07",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 26.75
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-02-10",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 64.3
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-02-14",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 17.8
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-01-02",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 23.5
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-01-05",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 31.2
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-01-08",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 58.75
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-01-12",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 14.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-01-18",
+    "category": "travel",
+    "description": "bus",
+    "amount": 3.25
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-01-22",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 45.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-01-25",
+    "category": "School",
+    "description": "books",
+    "amount": 120.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-01-28",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1299.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-02-03",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 19.4
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-02-18",
+    "category": "travel",
+    "description": "bus",
+    "amount": 2.75
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-02-21",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 52.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-02-24",
+    "category": "School",
+    "description": "books",
+    "amount": 89.99
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-02-27",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1350.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-03-02",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 21.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-03-05",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 29.95
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-03-09",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 72.1
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-03-12",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 18.25
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-03-16",
+    "category": "travel",
+    "description": "bus",
+    "amount": 3.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-03-20",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 60.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-03-23",
+    "category": "School",
+    "description": "books",
+    "amount": 110.5
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-03-27",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1400.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-04-02",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 18.9
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-04-06",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 34.1
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-04-10",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 67.45
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-04-14",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 12.6
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-04-18",
+    "category": "travel",
+    "description": "bus",
+    "amount": 2.95
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-04-22",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 49.9
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-04-25",
+    "category": "School",
+    "description": "books",
+    "amount": 98.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-04-29",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1250.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-05-03",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 24.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-05-07",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 27.3
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-05-12",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 80.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-05-16",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 15.2
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-05-19",
+    "category": "travel",
+    "description": "bus",
+    "amount": 3.1
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-05-23",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 55.75
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-05-27",
+    "category": "School",
+    "description": "books",
+    "amount": 130.4
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-05-30",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1425.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-06-04",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 20.1
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-06-08",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 33.8
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-06-12",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 75.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-06-16",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 19.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-06-20",
+    "category": "travel",
+    "description": "bus",
+    "amount": 2.5
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-06-24",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 61.2
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-06-27",
+    "category": "School",
+    "description": "books",
+    "amount": 140.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-06-30",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1500.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-07-04",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 22.45
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-07-09",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 28.6
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-07-13",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 69.9
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-07-17",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 16.75
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-07-21",
+    "category": "travel",
+    "description": "bus",
+    "amount": 3.4
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-07-25",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 58.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-07-28",
+    "category": "School",
+    "description": "books",
+    "amount": 115.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-07-31",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1380.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-08-03",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 26.1
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-08-07",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 30.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-08-11",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 77.8
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-08-15",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 13.9
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-08-19",
+    "category": "travel",
+    "description": "bus",
+    "amount": 2.8
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-08-23",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 63.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-08-27",
+    "category": "School",
+    "description": "books",
+    "amount": 125.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-08-30",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1499.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-09-05",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 24.75
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-09-10",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 35.6
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-09-14",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 82.3
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-09-18",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 18.5
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-09-22",
+    "category": "travel",
+    "description": "bus",
+    "amount": 3.1
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-09-26",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 59.9
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-09-29",
+    "category": "School",
+    "description": "books",
+    "amount": 132.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-10-02",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1550.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-10-06",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 21.9
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-10-10",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 29.4
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-10-15",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 74.25
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-10-20",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 17.3
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-10-24",
+    "category": "travel",
+    "description": "bus",
+    "amount": 2.6
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-10-28",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 62.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-11-02",
+    "category": "School",
+    "description": "books",
+    "amount": 118.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-11-06",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1600.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-11-12",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 23.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-11-18",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 32.1
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-11-24",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 79.95
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-12-01",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 16.2
+  },
+  {
+    "user": "Ashish",
+    "date": "2025-12-10",
+    "category": "travel",
+    "description": "bus",
+    "amount": 3.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2025-12-18",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 65.4
+  },
+  {
+    "user": "UserTest",
+    "date": "2025-12-26",
+    "category": "School",
+    "description": "books",
+    "amount": 145.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2026-01-05",
+    "category": "school",
+    "description": "macbook",
+    "amount": 1700.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2026-01-12",
+    "category": "Food",
+    "description": "Uber Eats",
+    "amount": 27.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2026-01-18",
+    "category": "food",
+    "description": "Doordash",
+    "amount": 36.5
+  },
+  {
+    "user": "Ashish",
+    "date": "2026-01-25",
+    "category": "FOOD",
+    "description": "Texas Road House",
+    "amount": 85.0
+  },
+  {
+    "user": "Parthasarathi",
+    "date": "2026-02-02",
+    "category": "Travel",
+    "description": "cab",
+    "amount": 19.8
+  },
+  {
+    "user": "UserTest",
+    "date": "2026-02-10",
+    "category": "travel",
+    "description": "bus",
+    "amount": 5.95
+  },
+  {
+    "user": "Ashish",
+    "date": "2026-02-21",
+    "category": "TRAVEL",
+    "description": "train",
+    "amount": 68.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2026-02-21",
+    "category": "food",
+    "description": "yuil",
+    "amount": 23.0
+  },
+  {
+    "user": "UserTest",
+    "date": "2026-02-21",
+    "category": "test",
+    "description": "test",
+    "amount": 2.0
+  }
+]
