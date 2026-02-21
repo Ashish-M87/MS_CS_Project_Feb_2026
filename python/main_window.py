@@ -12,8 +12,9 @@ from PySide6.QtWidgets import (
     QFileDialog,
     QFrame,
     QHBoxLayout,
-    QInputDialog,
+    QGridLayout,
     QLabel,
+    QListWidget,
     QMainWindow,
     QMessageBox,
     QPushButton,
@@ -45,6 +46,7 @@ class MainWindow(QMainWindow):
         self.manager = ExpenseManager()
         self.data_path = Path(__file__).resolve().parent.parent / "shared" / "data" / "expenses.json"
         self.load_data()
+        self.manual_users: set[str] = set()
 
         self.bind_or_create_widgets()
 
@@ -294,6 +296,20 @@ class MainWindow(QMainWindow):
     def current_user(self) -> str:
         return self.userComboBox.currentText().strip()
 
+    def normalized_category(self, value: str) -> str:
+        cleaned = value.strip()
+        return cleaned.title() if cleaned else ""
+
+    def normalized_category_map(self, categories: list[str]) -> dict[str, str]:
+        mapping: dict[str, str] = {}
+        for category in categories:
+            key = category.strip().lower()
+            if not key:
+                continue
+            if key not in mapping:
+                mapping[key] = self.normalized_category(category)
+        return mapping
+
     def require_current_user(self) -> str:
         user = self.current_user()
         if not user:
@@ -302,7 +318,7 @@ class MainWindow(QMainWindow):
 
     def refresh_user_dropdown(self) -> None:
         current = self.current_user()
-        users = sorted({expense["user"] for expense in self.manager.expenses})
+        users = sorted({expense["user"] for expense in self.manager.expenses}.union(self.manual_users))
 
         self.userComboBox.blockSignals(True)
         self.userComboBox.clear()
@@ -312,13 +328,15 @@ class MainWindow(QMainWindow):
 
         if current:
             self.userComboBox.setCurrentText(current)
-        elif users:
-            self.userComboBox.setCurrentText(users[0])
+        else:
+            self.userComboBox.setCurrentText("")
         self.userComboBox.blockSignals(False)
 
     def refresh_category_filter_dropdown(self) -> None:
         current = self.categoryFilterComboBox.currentData() or ""
-        categories = self.manager.categories(user=self.current_user() or None)
+        raw_categories = self.manager.categories(user=self.current_user() or None)
+        normalized_map = self.normalized_category_map(raw_categories)
+        categories = [normalized_map[key] for key in sorted(normalized_map.keys())]
 
         self.categoryFilterComboBox.blockSignals(True)
         self.categoryFilterComboBox.clear()
@@ -332,7 +350,8 @@ class MainWindow(QMainWindow):
 
     def refresh_summary_filter_dropdown(self, expenses: list[dict[str, Any]]) -> None:
         current = self.summaryCategoryComboBox.currentData() or ""
-        categories = sorted({expense["category"].strip() for expense in expenses})
+        normalized_map = self.normalized_category_map([expense["category"] for expense in expenses])
+        categories = [normalized_map[key] for key in sorted(normalized_map.keys())]
 
         self.summaryCategoryComboBox.blockSignals(True)
         self.summaryCategoryComboBox.clear()
@@ -511,23 +530,113 @@ class MainWindow(QMainWindow):
         QMessageBox.information(self, "Export CSV", f"Exported {len(self.current_view)} expenses")
 
     def on_manage_users(self) -> None:
-        users = sorted({expense["user"] for expense in self.manager.expenses})
-        if not users:
-            QMessageBox.information(self, "Manage Users", "No users available")
-            return
+        dialog = QDialog(self)
+        dialog.setWindowTitle("Manage Users")
+        dialog.setMinimumWidth(360)
+        layout = QVBoxLayout(dialog)
 
-        current = self.current_user()
-        current_index = users.index(current) if current in users else 0
-        selected, ok = QInputDialog.getItem(
-            self,
-            "Manage Users",
-            "Select user:",
-            users,
-            current_index,
-            False,
+        users_list = QListWidget(dialog)
+        users = sorted({expense["user"] for expense in self.manager.expenses}.union(self.manual_users))
+        users_list.addItems(users)
+        if self.current_user() in users:
+            users_list.setCurrentRow(users.index(self.current_user()))
+        layout.addWidget(users_list)
+
+        input_row = QHBoxLayout()
+        input_label = QLabel("User Name:", dialog)
+        user_name_input = QComboBox(dialog)
+        user_name_input.setEditable(True)
+        user_name_input.addItems(users)
+        input_row.addWidget(input_label)
+        input_row.addWidget(user_name_input)
+        layout.addLayout(input_row)
+
+        action_grid = QGridLayout()
+        add_button = QPushButton("Add User", dialog)
+        remove_button = QPushButton("Remove User", dialog)
+        set_current_button = QPushButton("Set Current", dialog)
+        close_button = QPushButton("Close", dialog)
+        action_grid.addWidget(add_button, 0, 0)
+        action_grid.addWidget(remove_button, 0, 1)
+        action_grid.addWidget(set_current_button, 1, 0)
+        action_grid.addWidget(close_button, 1, 1)
+        layout.addLayout(action_grid)
+
+        def refresh_user_list() -> None:
+            latest_users = sorted({expense["user"] for expense in self.manager.expenses}.union(self.manual_users))
+            users_list.clear()
+            users_list.addItems(latest_users)
+            current = self.current_user()
+            if current in latest_users:
+                users_list.setCurrentRow(latest_users.index(current))
+            user_name_input.blockSignals(True)
+            user_name_input.clear()
+            user_name_input.addItems(latest_users)
+            user_name_input.setCurrentText(current)
+            user_name_input.blockSignals(False)
+
+        def add_user() -> None:
+            new_user = user_name_input.currentText().strip()
+            if not new_user:
+                QMessageBox.warning(dialog, "Manage Users", "Enter a user name")
+                return
+            if any(expense["user"] == new_user for expense in self.manager.expenses) or new_user in self.manual_users:
+                QMessageBox.information(dialog, "Manage Users", "User already exists")
+                return
+            self.manual_users.add(new_user)
+            self.refresh_user_dropdown()
+            self.refresh_table()
+            refresh_user_list()
+            user_name_input.setCurrentText(new_user)
+
+        def remove_user() -> None:
+            selected_name = user_name_input.currentText().strip()
+            if not selected_name:
+                QMessageBox.warning(dialog, "Manage Users", "Select a user to remove")
+                return
+            rows = [idx for idx, expense in enumerate(self.manager.expenses) if expense["user"] == selected_name]
+            if not rows and selected_name not in self.manual_users:
+                QMessageBox.information(dialog, "Manage Users", "User not found")
+                return
+            answer = QMessageBox.question(
+                dialog,
+                "Manage Users",
+                f"Remove user '{selected_name}' and all their expenses?",
+            )
+            if answer != QMessageBox.StandardButton.Yes:
+                return
+            for idx in reversed(rows):
+                self.manager.delete_expense(idx)
+            self.manual_users.discard(selected_name)
+            self.manager.save_to_json(self.data_path)
+            if self.current_user() == selected_name:
+                self.userComboBox.setCurrentText("")
+            self.refresh_user_dropdown()
+            self.refresh_table()
+            refresh_user_list()
+
+        def set_current() -> None:
+            selected_item = users_list.currentItem()
+            if selected_item is None:
+                selected_name = user_name_input.currentText().strip()
+            else:
+                selected_name = selected_item.text().strip()
+            if not selected_name:
+                return
+            self.userComboBox.setCurrentText(selected_name)
+            dialog.accept()
+
+        add_button.clicked.connect(add_user)
+        remove_button.clicked.connect(remove_user)
+        set_current_button.clicked.connect(set_current)
+        close_button.clicked.connect(dialog.reject)
+        users_list.itemSelectionChanged.connect(
+            lambda: user_name_input.setCurrentText(users_list.currentItem().text())
+            if users_list.currentItem() is not None
+            else None
         )
-        if ok and selected:
-            self.userComboBox.setCurrentText(selected)
+
+        dialog.exec()
 
     def refresh_summary_from_current_view(self) -> None:
         self.update_summary_panel(self.current_view)
@@ -542,7 +651,8 @@ class MainWindow(QMainWindow):
 
         totals: defaultdict[str, float] = defaultdict(float)
         for expense in summary_expenses:
-            totals[expense["category"].strip()] += float(expense["amount"])
+            key = self.normalized_category(expense["category"])
+            totals[key] += float(expense["amount"])
 
         if total <= 0 or not totals:
             self.byCategoryText.setPlainText("No data available for the current selection.")
