@@ -42,13 +42,6 @@
     "amount": 58.75
   },
   {
-    "user": "Ashish",
-    "date": "2025-01-12",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 14.0
-  },
-  {
     "user": "Parthasarathi",
     "date": "2025-01-18",
     "category": "travel",
@@ -103,13 +96,6 @@
     "category": "School",
     "description": "books",
     "amount": 89.99
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-02-27",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1350.0
   },
   {
     "user": "Parthasarathi",
@@ -441,13 +427,6 @@
     "amount": 125.0
   },
   {
-    "user": "Ashish",
-    "date": "2025-08-30",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1499.0
-  },
-  {
     "user": "Parthasarathi",
     "date": "2025-09-05",
     "category": "Food",
@@ -611,8 +590,8 @@
   {
     "user": "Ashish",
     "date": "2026-01-05",
-    "category": "school",
-    "description": "macbook",
+    "category": "12345",
+    "description": "12345",
     "amount": 1700.0
   },
   {
@@ -660,8 +639,8 @@
   {
     "user": "Ashish",
     "date": "2026-02-21",
-    "category": "food",
-    "description": "yuil",
+    "category": "12345",
+    "description": "12345",
     "amount": 23.0
   },
   {
@@ -670,5 +649,12 @@
     "category": "test",
     "description": "test",
     "amount": 2.0
+  },
+  {
+    "user": "Ashish",
+    "date": "2026-02-21",
+    "category": "12345",
+    "description": "12345",
+    "amount": 0.0
   }
 ]

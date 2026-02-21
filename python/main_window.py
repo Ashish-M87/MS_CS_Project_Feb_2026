@@ -3,7 +3,7 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
-from PySide6.QtCore import QFile, QDate
+from PySide6.QtCore import QFile, QDate, Qt
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtWidgets import (
     QComboBox,
@@ -20,18 +20,17 @@ from PySide6.QtWidgets import (
     QSizePolicy,
     QTableView,
     QTextEdit,
+    QToolBar,
     QVBoxLayout,
     QWidget,
     QHeaderView,
 )
-
 try:
     from PySide6.QtCharts import QChart, QChartView, QPieSeries
 
     HAS_QT_CHARTS = True
 except ImportError:
     HAS_QT_CHARTS = False
-
 from add_expense_dialog import AddEditDialog
 from expense_manager import ExpenseManager
 from table_model import ExpenseTableModel
@@ -89,9 +88,10 @@ class MainWindow(QMainWindow):
                 self.setStatusBar(loaded.statusBar())
         else:
             self.setCentralWidget(loaded)
-        self.setWindowTitle("Expense Tracker")
+        self.setWindowTitle("Expense Tracker PyQt Edition - MSCS Project 2026 - AM")
+        self.menuBar().setVisible(False)
 
-    def _find_any(self, cls, *names: str):
+    def find_any(self, cls, *names: str):
         for name in names:
             widget = self.findChild(cls, name)
             if widget is not None:
@@ -105,13 +105,13 @@ class MainWindow(QMainWindow):
         return layout
 
     def bind_or_create_widgets(self) -> None:
-        self.fromDateEdit = self._find_any(QDateEdit, "fromDateEdit", "dateFromEdit")
-        self.toDateEdit = self._find_any(QDateEdit, "toDateEdit", "dateToEdit")
-        self.categoryFilterComboBox = self._find_any(QComboBox, "categoryFilterComboBox", "categoryCombo")
-        self.clearFiltersButton = self._find_any(QPushButton, "clearFiltersButton", "clearFiltersBtn")
-        self.expenseTableView = self._find_any(QTableView, "expenseTableView", "tableView")
+        self.fromDateEdit = self.find_any(QDateEdit, "fromDateEdit", "dateFromEdit")
+        self.toDateEdit = self.find_any(QDateEdit, "toDateEdit", "dateToEdit")
+        self.categoryFilterComboBox = self.find_any(QComboBox, "categoryFilterComboBox", "categoryCombo")
+        self.clearFiltersButton = self.find_any(QPushButton, "clearFiltersButton", "clearFiltersBtn")
+        self.expenseTableView = self.find_any(QTableView, "expenseTableView", "tableView")
 
-        self.summaryContainerLayout = self._find_any(QVBoxLayout, "summaryContainerLayout")
+        self.summaryContainerLayout = self.find_any(QVBoxLayout, "summaryContainerLayout")
         if self.summaryContainerLayout is None:
             raise RuntimeError("main_window.ui is missing summaryContainerLayout")
 
@@ -148,45 +148,41 @@ class MainWindow(QMainWindow):
         ):
             return
 
-        frame = QFrame(self)
-        frame.setFrameShape(QFrame.StyledPanel)
-        frame.setObjectName("dynamicToolbarFrame")
-        frame.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
-        frame.setMinimumHeight(40)
-        frame.setMaximumHeight(46)
+        toolbar = QToolBar("Actions", self)
+        toolbar.setObjectName("dynamicToolbarFrame")
+        toolbar.setMovable(False)
+        toolbar.setFloatable(False)
+        self.addToolBar(Qt.TopToolBarArea, toolbar)
 
-        row = QHBoxLayout(frame)
-        row.setContentsMargins(6, 4, 6, 4)
-        row.setSpacing(8)
-
-        self.addButton = QPushButton("Add Expense", frame)
+        self.addButton = QPushButton("Add Expense", self)
         self.addButton.setObjectName("addButton")
-        self.editButton = QPushButton("Edit", frame)
+        self.editButton = QPushButton("Edit", self)
         self.editButton.setObjectName("editButton")
-        self.deleteButton = QPushButton("Delete", frame)
+        self.deleteButton = QPushButton("Delete", self)
         self.deleteButton.setObjectName("deleteButton")
-        self.exportCsvButton = QPushButton("Export CSV", frame)
+        self.exportCsvButton = QPushButton("Export CSV", self)
         self.exportCsvButton.setObjectName("exportCsvButton")
+        self.addButton.setMinimumWidth(120)
+        self.exportCsvButton.setMinimumWidth(110)
 
-        user_label = QLabel("User:", frame)
-        self.userComboBox = QComboBox(frame)
+        user_label = QLabel("User:", self)
+        self.userComboBox = QComboBox(self)
         self.userComboBox.setObjectName("userComboBox")
         self.userComboBox.setEditable(True)
         self.userComboBox.setMinimumWidth(180)
 
-        self.manageUsersButton = QPushButton("Manage Users", frame)
+        self.manageUsersButton = QPushButton("Manage Users", self)
         self.manageUsersButton.setObjectName("manageUsersButton")
+        self.manageUsersButton.setMinimumWidth(110)
 
-        row.addWidget(self.addButton)
-        row.addWidget(self.editButton)
-        row.addWidget(self.deleteButton)
-        row.addWidget(self.exportCsvButton)
-        row.addWidget(user_label)
-        row.addWidget(self.userComboBox)
-        row.addWidget(self.manageUsersButton)
-        row.addStretch(1)
-
-        self.root_layout().insertWidget(0, frame)
+        toolbar.addWidget(self.addButton)
+        toolbar.addWidget(self.editButton)
+        toolbar.addWidget(self.deleteButton)
+        toolbar.addWidget(self.exportCsvButton)
+        toolbar.addSeparator()
+        toolbar.addWidget(user_label)
+        toolbar.addWidget(self.userComboBox)
+        toolbar.addWidget(self.manageUsersButton)
 
     def create_summary_panel_if_missing(self) -> None:
         self.summaryUserLabel = self.findChild(QLabel, "summaryUserLabel")

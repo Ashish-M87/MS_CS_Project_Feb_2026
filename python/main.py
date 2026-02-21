@@ -13,7 +13,7 @@ def main() -> int:
         app.setStyleSheet(qss_path.read_text(encoding="utf-8"))
 
     window = MainWindow()
-    window.resize(1400, 820)
+    window.resize(420, 730)
     window.show()
     return app.exec()
 
