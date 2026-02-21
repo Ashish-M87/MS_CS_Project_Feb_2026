@@ -1,10 +1,12 @@
 from __future__ import annotations
-
+from datetime import datetime
 from typing import Any
 from PySide6.QtCore import QAbstractTableModel, QModelIndex, Qt
 
+
+
 class ExpenseTableModel(QAbstractTableModel):
-    HEADERS = ["User", "Date", "Category", "Description", "Amount"]
+    HEADERS = ["Date", "Amount", "Category", "Description"]
 
     def __init__(self, expenses: list[dict[str, Any]] | None = None) -> None:
         super().__init__()
@@ -46,17 +48,18 @@ class ExpenseTableModel(QAbstractTableModel):
 
         if role == Qt.DisplayRole:
             if column == 0:
-                return expense["user"]
+                try:
+                    return datetime.strptime(expense["date"], "%Y-%m-%d").strftime("%d %b %Y")
+                except ValueError:
+                    return expense["date"]
             if column == 1:
-                return expense["date"]
+                return f"${float(expense['amount']):.2f}"
             if column == 2:
                 return expense["category"]
             if column == 3:
                 return expense["description"]
-            if column == 4:
-                return f"{float(expense['amount']):.2f}"
 
-        if role == Qt.TextAlignmentRole and column == 4:
+        if role == Qt.TextAlignmentRole and column == 1:
             return Qt.AlignRight | Qt.AlignVCenter
 
         return None
