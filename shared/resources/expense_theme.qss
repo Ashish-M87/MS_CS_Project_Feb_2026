@@ -1,0 +1,16 @@
+/* Minimal stylesheet — let Windows handle all theming.
+   Only override the calendar header text color which goes white-on-white
+   on some Qt/Windows combinations. */
+QCalendarWidget QAbstractItemView {
+    color: black;
+    background-color: white;
+    selection-background-color: palette(highlight);
+    selection-color: palette(highlighted-text);
+}
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+    background-color: palette(button);
+}
+QCalendarWidget QToolButton {
+    color: palette(button-text);
+    background-color: transparent;
+}
