@@ -9,4 +9,6 @@ __pycache__/
 .DS_Store
 
 # Local runtime data cache (keep canonical shared data instead)
-
+build/
+dist/
+*.spec
