@@ -1,10 +1,3 @@
-# Python
-__pycache__/
-*.py[cod]
-
-# Virtual env
-.venv/
-
 # OS files
 .DS_Store
 
@@ -12,3 +5,38 @@ __pycache__/
 build/
 dist/
 *.spec
+
+# CMake build output
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# Qt generated files (created in build dir by AUTOMOC/AUTOUIC)
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+.venv/
+*.spec.bak
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# Windows
+*.exe
+*.pdb
+*.ilk
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
