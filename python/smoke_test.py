@@ -1,3 +1,5 @@
+"""Minimal logic smoke test for ExpenseManager."""
+
 from expense_manager import ExpenseManager
 
 m = ExpenseManager()

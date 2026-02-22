@@ -17,6 +17,8 @@ from PySide6.QtWidgets import (
 
 
 class AddEditDialog(QDialog):
+    """Wraps shared/ui/add_expense_dialog.ui and exposes validated payload."""
+
     def __init__(self, parent=None, expense: dict[str, Any] | None = None) -> None:
         super().__init__(parent)
         ui_path = Path(__file__).resolve().parent.parent / "shared" / "ui" / "add_expense_dialog.ui"
@@ -31,6 +33,7 @@ class AddEditDialog(QDialog):
         if not isinstance(dialog_widget, QWidget):
             raise RuntimeError(f"Unexpected root widget in UI file: {ui_path}")
 
+        # Mount the loaded dialog root into this controller instance.
         host_layout = QVBoxLayout(self)
         host_layout.setContentsMargins(0, 0, 0, 0)
         host_layout.addWidget(dialog_widget)
@@ -65,6 +68,7 @@ class AddEditDialog(QDialog):
             self.descriptionLineEdit.setText(expense["description"])
 
     def on_save(self) -> None:
+        # Core validation remains in ExpenseManager; this is early UI feedback.
         if not self.categoryLineEdit.text().strip():
             QMessageBox.warning(self, "Validation Error", "category is required")
             return

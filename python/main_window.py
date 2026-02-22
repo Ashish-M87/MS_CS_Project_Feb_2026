@@ -39,6 +39,8 @@ from table_model import ExpenseTableModel
 
 
 class MainWindow(QMainWindow):
+    """Coordinates UI events, table data, filters, and summary display."""
+
     def __init__(self) -> None:
         super().__init__()
         self.load_main_ui()
@@ -69,6 +71,7 @@ class MainWindow(QMainWindow):
         self.refresh_table()
 
     def load_main_ui(self) -> None:
+        """Load shared main window layout and attach central widget to this instance."""
         ui_path = Path(__file__).resolve().parent.parent / "shared" / "ui" / "main_window.ui"
         loader = QUiLoader()
         ui_file = QFile(str(ui_path))
@@ -94,6 +97,7 @@ class MainWindow(QMainWindow):
         self.menuBar().setVisible(False)
 
     def find_any(self, cls, *names: str):
+        """Return the first matching widget across legacy/current object names."""
         for name in names:
             widget = self.findChild(cls, name)
             if widget is not None:
@@ -107,6 +111,7 @@ class MainWindow(QMainWindow):
         return layout
 
     def bind_or_create_widgets(self) -> None:
+        # Resolve widgets from shared UI first; only create fallbacks if missing.
         self.fromDateEdit = self.find_any(QDateEdit, "fromDateEdit", "dateFromEdit")
         self.toDateEdit = self.find_any(QDateEdit, "toDateEdit", "dateToEdit")
         self.categoryFilterComboBox = self.find_any(QComboBox, "categoryFilterComboBox", "categoryCombo")
@@ -130,6 +135,7 @@ class MainWindow(QMainWindow):
         self.create_summary_panel_if_missing()
 
     def create_top_toolbar_if_missing(self) -> None:
+        """Build top action toolbar at runtime when shared UI omits it."""
         self.addButton = self.findChild(QPushButton, "addButton")
         self.editButton = self.findChild(QPushButton, "editButton")
         self.deleteButton = self.findChild(QPushButton, "deleteButton")
@@ -187,6 +193,7 @@ class MainWindow(QMainWindow):
         toolbar.addWidget(self.manageUsersButton)
 
     def create_summary_panel_if_missing(self) -> None:
+        """Build right summary panel controls when shared UI is minimal."""
         self.summaryUserLabel = self.findChild(QLabel, "summaryUserLabel")
         self.summaryTotalLabel = self.findChild(QLabel, "summaryTotalLabel")
         self.byCategoryText = self.findChild(QTextEdit, "byCategoryText")
@@ -258,6 +265,7 @@ class MainWindow(QMainWindow):
         self.manager.load_from_json(self.data_path)
 
     def setup_filter_defaults(self) -> None:
+        """Initialize sentinel values for optional date and category filters."""
         sentinel = QDate(1900, 1, 1)
 
         self.fromDateEdit.setMinimumDate(sentinel)
@@ -278,6 +286,7 @@ class MainWindow(QMainWindow):
         self.summaryCategoryComboBox.addItem("All Categories", "")
 
     def connect_signals(self) -> None:
+        """Wire UI actions to controller handlers."""
         self.addButton.clicked.connect(self.on_add)
         self.editButton.clicked.connect(self.on_edit)
         self.deleteButton.clicked.connect(self.on_delete)
@@ -297,6 +306,7 @@ class MainWindow(QMainWindow):
         return self.userComboBox.currentText().strip()
 
     def normalized_category(self, value: str) -> str:
+        """Normalize category labels for consistent display and aggregation."""
         cleaned = value.strip()
         return cleaned.title() if cleaned else ""
 
@@ -317,6 +327,7 @@ class MainWindow(QMainWindow):
         return user
 
     def refresh_user_dropdown(self) -> None:
+        """Sync user selector from persisted users and runtime manual users."""
         current = self.current_user()
         users = sorted({expense["user"] for expense in self.manager.expenses}.union(self.manual_users))
 
@@ -333,6 +344,7 @@ class MainWindow(QMainWindow):
         self.userComboBox.blockSignals(False)
 
     def refresh_category_filter_dropdown(self) -> None:
+        """Populate category filter with normalized, de-duplicated category names."""
         current = self.categoryFilterComboBox.currentData() or ""
         raw_categories = self.manager.categories(user=self.current_user() or None)
         normalized_map = self.normalized_category_map(raw_categories)
@@ -349,6 +361,7 @@ class MainWindow(QMainWindow):
         self.categoryFilterComboBox.blockSignals(False)
 
     def refresh_summary_filter_dropdown(self, expenses: list[dict[str, Any]]) -> None:
+        """Keep summary category selector aligned to currently displayed rows."""
         current = self.summaryCategoryComboBox.currentData() or ""
         normalized_map = self.normalized_category_map([expense["category"] for expense in expenses])
         categories = [normalized_map[key] for key in sorted(normalized_map.keys())]
@@ -369,6 +382,7 @@ class MainWindow(QMainWindow):
         return edit.date().toString("yyyy-MM-dd")
 
     def summary_filtered_expenses(self, expenses: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        """Apply optional summary-level month/category filters on top of table view."""
         filtered = list(expenses)
 
         month_date = self.summaryMonthDateEdit.date()
@@ -403,6 +417,7 @@ class MainWindow(QMainWindow):
         return None, None
 
     def refresh_table(self) -> None:
+        """Refresh table data for selected user + filter state, then update summary."""
         try:
             user = self.current_user()
             if not user:
@@ -499,6 +514,7 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "Delete Error", str(exc))
 
     def on_export_csv(self) -> None:
+        """Export currently visible rows to CSV."""
         if not self.current_view:
             QMessageBox.information(self, "Export CSV", "No expenses to export")
             return
@@ -530,6 +546,7 @@ class MainWindow(QMainWindow):
         QMessageBox.information(self, "Export CSV", f"Exported {len(self.current_view)} expenses")
 
     def on_manage_users(self) -> None:
+        """Manage users from a lightweight popup (add/remove/select current)."""
         dialog = QDialog(self)
         dialog.setWindowTitle("Manage Users")
         dialog.setMinimumWidth(360)
@@ -642,6 +659,7 @@ class MainWindow(QMainWindow):
         self.update_summary_panel(self.current_view)
 
     def update_summary_panel(self, expenses: list[dict[str, Any]]) -> None:
+        """Recompute total and per-category percentages for summary display."""
         summary_expenses = self.summary_filtered_expenses(expenses)
         user = self.current_user()
         self.summaryUserLabel.setText(f"User: {user or '-'}")
@@ -666,6 +684,7 @@ class MainWindow(QMainWindow):
         self.update_chart_placeholder(totals)
 
     def update_chart_placeholder(self, totals: defaultdict[str, float]) -> None:
+        """Render pie chart if QtCharts is available, else show text fallback."""
         while self.chartPlaceholderLayout.count():
             item = self.chartPlaceholderLayout.takeAt(0)
             widget = item.widget()
