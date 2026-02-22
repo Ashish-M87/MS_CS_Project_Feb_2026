@@ -6,6 +6,8 @@ from PySide6.QtCore import QAbstractTableModel, QModelIndex, Qt
 
 
 class ExpenseTableModel(QAbstractTableModel):
+    """Read-only model mapped to expense dictionaries."""
+
     HEADERS = ["Date", "Amount", "Category", "Description"]
 
     def __init__(self, expenses: list[dict[str, Any]] | None = None) -> None:
@@ -48,6 +50,7 @@ class ExpenseTableModel(QAbstractTableModel):
 
         if role == Qt.DisplayRole:
             if column == 0:
+                # Keep storage ISO format in data layer; render user-friendly format here.
                 try:
                     return datetime.strptime(expense["date"], "%Y-%m-%d").strftime("%d %b %Y")
                 except ValueError:

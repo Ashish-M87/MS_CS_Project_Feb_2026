@@ -7,7 +7,9 @@ from main_window import MainWindow
 
 
 def main() -> int:
+    """Bootstrap Qt app, apply shared stylesheet, and launch main window."""
     app = QApplication(sys.argv)
+    # Styling is shared across language implementations via the shared folder.
     qss_path = Path(__file__).resolve().parent.parent / "shared" / "resources" / "expense_theme.qss"
     if qss_path.exists():
         app.setStyleSheet(qss_path.read_text(encoding="utf-8"))
