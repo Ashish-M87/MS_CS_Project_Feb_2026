@@ -4,5 +4,5 @@ A cross-platform expense management application with a graphical interface for t
 
 ## Languages
 
-- [Python](python/README.md) - Python implementation with PyQt6
-- [C++](cpp/CPP_README.md) - C++ implementation with Qt
+- [Python](python/README.md)
+- [C++](cpp/CPP_README.md) 
