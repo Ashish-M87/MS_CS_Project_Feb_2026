@@ -8,7 +8,10 @@ from typing import Any
 
 
 class ExpenseManager:
+    """Owns expense records and all validation/filtering logic."""
+
     def __init__(self) -> None:
+        # Canonical in-memory store. UI modules treat this as source of truth.
         self.expenses: list[dict[str, Any]] = []
 
     def validate_non_empty_string(self, value: Any, field_name: str) -> str:
@@ -119,6 +122,7 @@ class ExpenseManager:
         category: str | None = None,
         user: str | None = None,
     ) -> list[dict[str, Any]]:
+        """Return a new filtered list without mutating self.expenses."""
         from_dt = self.parse_optional_date(from_date, "from_date")
         to_dt = self.parse_optional_date(to_date, "to_date")
         if from_dt and to_dt and from_dt > to_dt:
@@ -129,6 +133,7 @@ class ExpenseManager:
 
         filtered: list[dict[str, Any]] = []
         for expense in self.expenses:
+            # Dates are stored as ISO strings for JSON portability.
             expense_date = datetime.strptime(expense["date"], "%Y-%m-%d").date()
             if from_dt and expense_date < from_dt:
                 continue
@@ -148,6 +153,7 @@ class ExpenseManager:
         category: str | None = None,
         user: str | None = None,
     ) -> float:
+        """Monthly rollup helper kept for non-UI uses and smoke tests."""
         if month < 1 or month > 12:
             raise ValueError("month must be between 1 and 12")
 
@@ -179,12 +185,14 @@ class ExpenseManager:
         return sorted(values)
 
     def save_to_json(self, file_path: str | Path) -> None:
+        """Persist the full expense list to disk."""
         target = Path(file_path)
         target.parent.mkdir(parents=True, exist_ok=True)
         with target.open("w", encoding="utf-8") as handle:
             json.dump(self.expenses, handle, indent=2)
 
     def load_from_json(self, file_path: str | Path, *, merge: bool = False) -> None:
+        """Load and validate expenses from disk before using them in memory."""
         target = Path(file_path)
         if not target.exists():
             return
