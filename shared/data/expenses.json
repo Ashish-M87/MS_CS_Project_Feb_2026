@@ -1,660 +1,4047 @@
-[
-  {
-    "user": "Ashish",
-    "date": "2025-02-07",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 26.75
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-02-10",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 64.3
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-02-14",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 17.8
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-01-02",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 23.5
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-01-05",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 31.2
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-01-08",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 58.75
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-01-18",
-    "category": "travel",
-    "description": "bus",
-    "amount": 3.25
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-01-22",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 45.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-01-25",
-    "category": "School",
-    "description": "books",
-    "amount": 120.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-01-28",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1299.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-02-03",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 19.4
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-02-18",
-    "category": "travel",
-    "description": "bus",
-    "amount": 2.75
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-02-21",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 52.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-02-24",
-    "category": "School",
-    "description": "books",
-    "amount": 89.99
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-03-02",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 21.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-03-05",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 29.95
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-03-09",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 72.1
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-03-12",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 18.25
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-03-16",
-    "category": "travel",
-    "description": "bus",
-    "amount": 3.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-03-20",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 60.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-03-23",
-    "category": "School",
-    "description": "books",
-    "amount": 110.5
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-03-27",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1400.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-04-02",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 18.9
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-04-06",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 34.1
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-04-10",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 67.45
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-04-14",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 12.6
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-04-18",
-    "category": "travel",
-    "description": "bus",
-    "amount": 2.95
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-04-22",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 49.9
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-04-25",
-    "category": "School",
-    "description": "books",
-    "amount": 98.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-04-29",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1250.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-05-03",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 24.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-05-07",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 27.3
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-05-12",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 80.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-05-16",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 15.2
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-05-19",
-    "category": "travel",
-    "description": "bus",
-    "amount": 3.1
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-05-23",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 55.75
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-05-27",
-    "category": "School",
-    "description": "books",
-    "amount": 130.4
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-05-30",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1425.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-06-04",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 20.1
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-06-08",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 33.8
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-06-12",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 75.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-06-16",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 19.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-06-20",
-    "category": "travel",
-    "description": "bus",
-    "amount": 2.5
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-06-24",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 61.2
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-06-27",
-    "category": "School",
-    "description": "books",
-    "amount": 140.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-06-30",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1500.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-07-04",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 22.45
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-07-09",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 28.6
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-07-13",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 69.9
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-07-17",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 16.75
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-07-21",
-    "category": "travel",
-    "description": "bus",
-    "amount": 3.4
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-07-25",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 58.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-07-28",
-    "category": "School",
-    "description": "books",
-    "amount": 115.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-07-31",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1380.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-08-03",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 26.1
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-08-07",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 30.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-08-11",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 77.8
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-08-15",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 13.9
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-08-19",
-    "category": "travel",
-    "description": "bus",
-    "amount": 2.8
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-08-23",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 63.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-08-27",
-    "category": "School",
-    "description": "books",
-    "amount": 125.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-09-05",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 24.75
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-09-10",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 35.6
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-09-14",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 82.3
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-09-18",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 18.5
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-09-22",
-    "category": "travel",
-    "description": "bus",
-    "amount": 3.1
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-09-26",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 59.9
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-09-29",
-    "category": "School",
-    "description": "books",
-    "amount": 132.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-10-02",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1550.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-10-06",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 21.9
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-10-10",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 29.4
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-10-15",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 74.25
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-10-20",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 17.3
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-10-24",
-    "category": "travel",
-    "description": "bus",
-    "amount": 2.6
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-10-28",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 62.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-11-02",
-    "category": "School",
-    "description": "books",
-    "amount": 118.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-11-06",
-    "category": "school",
-    "description": "macbook",
-    "amount": 1600.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-11-12",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 23.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-11-18",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 32.1
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-11-24",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 79.95
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-12-01",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 16.2
-  },
-  {
-    "user": "Ashish",
-    "date": "2025-12-10",
-    "category": "travel",
-    "description": "bus",
-    "amount": 3.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2025-12-18",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 65.4
-  },
-  {
-    "user": "UserTest",
-    "date": "2025-12-26",
-    "category": "School",
-    "description": "books",
-    "amount": 145.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2026-01-05",
-    "category": "12345",
-    "description": "12345",
-    "amount": 1700.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2026-01-12",
-    "category": "Food",
-    "description": "Uber Eats",
-    "amount": 27.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2026-01-18",
-    "category": "food",
-    "description": "Doordash",
-    "amount": 36.5
-  },
-  {
-    "user": "Ashish",
-    "date": "2026-01-25",
-    "category": "FOOD",
-    "description": "Texas Road House",
-    "amount": 85.0
-  },
-  {
-    "user": "Parthasarathi",
-    "date": "2026-02-02",
-    "category": "Travel",
-    "description": "cab",
-    "amount": 19.8
-  },
-  {
-    "user": "UserTest",
-    "date": "2026-02-10",
-    "category": "travel",
-    "description": "bus",
-    "amount": 5.95
-  },
-  {
-    "user": "Ashish",
-    "date": "2026-02-21",
-    "category": "TRAVEL",
-    "description": "train",
-    "amount": 68.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2026-02-21",
-    "category": "12345",
-    "description": "12345",
-    "amount": 23.0
-  },
-  {
-    "user": "UserTest",
-    "date": "2026-02-21",
-    "category": "test",
-    "description": "test",
-    "amount": 2.0
-  },
-  {
-    "user": "Ashish",
-    "date": "2026-02-21",
-    "category": "12345",
-    "description": "12345",
-    "amount": 0.0
-  }
-]
+{
+    "version": "1.1",
+    "users": [
+        {
+            "id": 1,
+            "name": "Alice"
+        },
+        {
+            "id": 2,
+            "name": "Bob"
+        },
+        {
+            "id": 3,
+            "name": "Charlie"
+        },
+        {
+            "id": 4,
+            "name": "David"
+        },
+        {
+            "id": 5,
+            "name": "Eve"
+        },
+        {
+            "id": 6,
+            "name": "Frank"
+        },
+        {
+            "id": 7,
+            "name": "Grace"
+        },
+        {
+            "id": 8,
+            "name": "Hank"
+        },
+        {
+            "id": 9,
+            "name": "Ivy"
+        },
+        {
+            "id": 10,
+            "name": "Jack"
+        }
+    ],
+    "expenses": [
+        {
+            "id": 1,
+            "userId": 1,
+            "date": "2026-01-21",
+            "amount": 191.58,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "date": "2026-01-15",
+            "amount": 59.5,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 3,
+            "userId": 1,
+            "date": "2026-02-05",
+            "amount": 32.15,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 4,
+            "userId": 1,
+            "date": "2026-01-27",
+            "amount": 154.11,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 5,
+            "userId": 1,
+            "date": "2026-01-11",
+            "amount": 31.14,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 6,
+            "userId": 1,
+            "date": "2026-01-30",
+            "amount": 33.45,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 7,
+            "userId": 1,
+            "date": "2026-02-23",
+            "amount": 147.98,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 8,
+            "userId": 1,
+            "date": "2026-02-09",
+            "amount": 135.77,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 9,
+            "userId": 1,
+            "date": "2026-02-14",
+            "amount": 89.52,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 10,
+            "userId": 1,
+            "date": "2026-01-13",
+            "amount": 53.83,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 11,
+            "userId": 1,
+            "date": "2026-03-02",
+            "amount": 189.65,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 12,
+            "userId": 1,
+            "date": "2026-02-17",
+            "amount": 114.91,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 13,
+            "userId": 1,
+            "date": "2026-02-03",
+            "amount": 34.98,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 14,
+            "userId": 1,
+            "date": "2026-02-11",
+            "amount": 56.16,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 15,
+            "userId": 1,
+            "date": "2026-01-28",
+            "amount": 117.1,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 16,
+            "userId": 1,
+            "date": "2026-02-17",
+            "amount": 24.3,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 17,
+            "userId": 1,
+            "date": "2026-01-18",
+            "amount": 114.98,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 18,
+            "userId": 1,
+            "date": "2026-01-06",
+            "amount": 74.74,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 19,
+            "userId": 1,
+            "date": "2026-01-19",
+            "amount": 69.36,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 20,
+            "userId": 1,
+            "date": "2026-02-26",
+            "amount": 53.8,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 21,
+            "userId": 1,
+            "date": "2026-01-06",
+            "amount": 74.89,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 22,
+            "userId": 1,
+            "date": "2026-02-28",
+            "amount": 149.9,
+            "category": "Electronics",
+            "description": "Headphones"
+        },
+        {
+            "id": 23,
+            "userId": 1,
+            "date": "2026-01-06",
+            "amount": 189.79,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 24,
+            "userId": 1,
+            "date": "2026-01-20",
+            "amount": 94.83,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 25,
+            "userId": 1,
+            "date": "2026-01-26",
+            "amount": 25.86,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 26,
+            "userId": 1,
+            "date": "2026-01-07",
+            "amount": 85.96,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 27,
+            "userId": 1,
+            "date": "2026-02-07",
+            "amount": 34.78,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 28,
+            "userId": 1,
+            "date": "2026-01-09",
+            "amount": 183.76,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 29,
+            "userId": 1,
+            "date": "2026-02-01",
+            "amount": 12.93,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 30,
+            "userId": 1,
+            "date": "2026-01-21",
+            "amount": 12.45,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 31,
+            "userId": 1,
+            "date": "2026-02-08",
+            "amount": 177.41,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 32,
+            "userId": 1,
+            "date": "2026-02-18",
+            "amount": 147.77,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 33,
+            "userId": 1,
+            "date": "2026-02-08",
+            "amount": 96.29,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 34,
+            "userId": 1,
+            "date": "2026-01-25",
+            "amount": 59.27,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 35,
+            "userId": 1,
+            "date": "2026-02-18",
+            "amount": 52.09,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 36,
+            "userId": 1,
+            "date": "2026-02-15",
+            "amount": 7.62,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 37,
+            "userId": 1,
+            "date": "2026-01-28",
+            "amount": 121.98,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 38,
+            "userId": 1,
+            "date": "2026-01-20",
+            "amount": 107.5,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 39,
+            "userId": 1,
+            "date": "2026-02-26",
+            "amount": 130.9,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 40,
+            "userId": 1,
+            "date": "2026-01-19",
+            "amount": 119.32,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 41,
+            "userId": 1,
+            "date": "2026-01-06",
+            "amount": 9.53,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 42,
+            "userId": 1,
+            "date": "2026-01-02",
+            "amount": 122.04,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 43,
+            "userId": 1,
+            "date": "2026-02-14",
+            "amount": 82.85,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 44,
+            "userId": 1,
+            "date": "2026-01-19",
+            "amount": 27.32,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 45,
+            "userId": 1,
+            "date": "2026-03-02",
+            "amount": 25.95,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 46,
+            "userId": 1,
+            "date": "2026-01-18",
+            "amount": 71.18,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 47,
+            "userId": 1,
+            "date": "2026-01-14",
+            "amount": 96.97,
+            "category": "Food",
+            "description": "Weekly groceries"
+        },
+        {
+            "id": 48,
+            "userId": 1,
+            "date": "2026-02-18",
+            "amount": 128.06,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 49,
+            "userId": 1,
+            "date": "2026-02-18",
+            "amount": 61.28,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 50,
+            "userId": 1,
+            "date": "2026-01-10",
+            "amount": 111.64,
+            "category": "Healthcare",
+            "description": "Doctor visit"
+        },
+        {
+            "id": 51,
+            "userId": 2,
+            "date": "2026-01-06",
+            "amount": 73.35,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 52,
+            "userId": 2,
+            "date": "2026-02-17",
+            "amount": 56.91,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 53,
+            "userId": 2,
+            "date": "2026-02-03",
+            "amount": 180.09,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 54,
+            "userId": 2,
+            "date": "2026-01-10",
+            "amount": 11.64,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 55,
+            "userId": 2,
+            "date": "2026-01-07",
+            "amount": 33.27,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 56,
+            "userId": 2,
+            "date": "2026-02-23",
+            "amount": 41.63,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 57,
+            "userId": 2,
+            "date": "2026-01-05",
+            "amount": 16.93,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 58,
+            "userId": 2,
+            "date": "2026-01-29",
+            "amount": 110.5,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 59,
+            "userId": 2,
+            "date": "2026-02-02",
+            "amount": 154.45,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 60,
+            "userId": 2,
+            "date": "2026-02-11",
+            "amount": 96.36,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 61,
+            "userId": 2,
+            "date": "2026-02-08",
+            "amount": 58.82,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 62,
+            "userId": 2,
+            "date": "2026-01-28",
+            "amount": 118.65,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 63,
+            "userId": 2,
+            "date": "2026-01-31",
+            "amount": 171.49,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 64,
+            "userId": 2,
+            "date": "2026-01-15",
+            "amount": 156.11,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 65,
+            "userId": 2,
+            "date": "2026-02-04",
+            "amount": 94.95,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 66,
+            "userId": 2,
+            "date": "2026-02-12",
+            "amount": 67.12,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 67,
+            "userId": 2,
+            "date": "2026-01-03",
+            "amount": 26.39,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 68,
+            "userId": 2,
+            "date": "2026-01-02",
+            "amount": 198.34,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 69,
+            "userId": 2,
+            "date": "2026-02-02",
+            "amount": 104.06,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 70,
+            "userId": 2,
+            "date": "2026-02-27",
+            "amount": 31.75,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 71,
+            "userId": 2,
+            "date": "2026-01-15",
+            "amount": 31.86,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 72,
+            "userId": 2,
+            "date": "2026-01-12",
+            "amount": 98.04,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 73,
+            "userId": 2,
+            "date": "2026-02-24",
+            "amount": 13.92,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 74,
+            "userId": 2,
+            "date": "2026-01-10",
+            "amount": 34.49,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 75,
+            "userId": 2,
+            "date": "2026-02-13",
+            "amount": 96.09,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 76,
+            "userId": 2,
+            "date": "2026-01-22",
+            "amount": 47.47,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 77,
+            "userId": 2,
+            "date": "2026-01-14",
+            "amount": 133.42,
+            "category": "Shopping",
+            "description": "Home decor"
+        },
+        {
+            "id": 78,
+            "userId": 2,
+            "date": "2026-01-15",
+            "amount": 108.26,
+            "category": "Shopping",
+            "description": "Home decor"
+        },
+        {
+            "id": 79,
+            "userId": 2,
+            "date": "2026-01-16",
+            "amount": 102.27,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 80,
+            "userId": 2,
+            "date": "2026-02-08",
+            "amount": 96.76,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 81,
+            "userId": 2,
+            "date": "2026-02-06",
+            "amount": 127.19,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 82,
+            "userId": 2,
+            "date": "2026-02-24",
+            "amount": 183.11,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 83,
+            "userId": 2,
+            "date": "2026-01-14",
+            "amount": 160.85,
+            "category": "Healthcare",
+            "description": "First aid kit"
+        },
+        {
+            "id": 84,
+            "userId": 2,
+            "date": "2026-01-14",
+            "amount": 6.68,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 85,
+            "userId": 2,
+            "date": "2026-01-11",
+            "amount": 161.27,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 86,
+            "userId": 2,
+            "date": "2026-02-01",
+            "amount": 99.69,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 87,
+            "userId": 2,
+            "date": "2026-02-08",
+            "amount": 57.76,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 88,
+            "userId": 2,
+            "date": "2026-02-15",
+            "amount": 79.13,
+            "category": "Shopping",
+            "description": "Home decor"
+        },
+        {
+            "id": 89,
+            "userId": 2,
+            "date": "2026-02-19",
+            "amount": 105.47,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 90,
+            "userId": 2,
+            "date": "2026-01-30",
+            "amount": 198.69,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 91,
+            "userId": 2,
+            "date": "2026-01-26",
+            "amount": 122.28,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 92,
+            "userId": 2,
+            "date": "2026-02-16",
+            "amount": 106.97,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 93,
+            "userId": 2,
+            "date": "2026-01-01",
+            "amount": 31.23,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 94,
+            "userId": 2,
+            "date": "2026-02-26",
+            "amount": 91.41,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 95,
+            "userId": 2,
+            "date": "2026-02-20",
+            "amount": 133.54,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 96,
+            "userId": 2,
+            "date": "2026-01-26",
+            "amount": 158.08,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 97,
+            "userId": 2,
+            "date": "2026-01-21",
+            "amount": 192.33,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 98,
+            "userId": 2,
+            "date": "2026-02-22",
+            "amount": 158.73,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 99,
+            "userId": 2,
+            "date": "2026-02-18",
+            "amount": 104.22,
+            "category": "Healthcare",
+            "description": "Gym membership"
+        },
+        {
+            "id": 100,
+            "userId": 2,
+            "date": "2026-01-22",
+            "amount": 45.11,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 101,
+            "userId": 3,
+            "date": "2026-01-27",
+            "amount": 74.29,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 102,
+            "userId": 3,
+            "date": "2026-01-16",
+            "amount": 125.86,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 103,
+            "userId": 3,
+            "date": "2026-01-25",
+            "amount": 97.23,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 104,
+            "userId": 3,
+            "date": "2026-01-07",
+            "amount": 143.52,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 105,
+            "userId": 3,
+            "date": "2026-02-26",
+            "amount": 19.12,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 106,
+            "userId": 3,
+            "date": "2026-02-21",
+            "amount": 143.18,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 107,
+            "userId": 3,
+            "date": "2026-01-19",
+            "amount": 161.08,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 108,
+            "userId": 3,
+            "date": "2026-01-27",
+            "amount": 9.47,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 109,
+            "userId": 3,
+            "date": "2026-01-07",
+            "amount": 138.47,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 110,
+            "userId": 3,
+            "date": "2026-02-07",
+            "amount": 196.41,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 111,
+            "userId": 3,
+            "date": "2026-01-25",
+            "amount": 51.48,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 112,
+            "userId": 3,
+            "date": "2026-03-01",
+            "amount": 154.83,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 113,
+            "userId": 3,
+            "date": "2026-02-25",
+            "amount": 74.24,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 114,
+            "userId": 3,
+            "date": "2026-01-29",
+            "amount": 162.85,
+            "category": "Food",
+            "description": "Weekly groceries"
+        },
+        {
+            "id": 115,
+            "userId": 3,
+            "date": "2026-02-04",
+            "amount": 66.79,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 116,
+            "userId": 3,
+            "date": "2026-01-03",
+            "amount": 49.25,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 117,
+            "userId": 3,
+            "date": "2026-03-02",
+            "amount": 183.51,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 118,
+            "userId": 3,
+            "date": "2026-01-20",
+            "amount": 142.51,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 119,
+            "userId": 3,
+            "date": "2026-01-11",
+            "amount": 106.8,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 120,
+            "userId": 3,
+            "date": "2026-01-12",
+            "amount": 137.31,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 121,
+            "userId": 3,
+            "date": "2026-01-13",
+            "amount": 177.51,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 122,
+            "userId": 3,
+            "date": "2026-02-11",
+            "amount": 171.11,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 123,
+            "userId": 3,
+            "date": "2026-02-16",
+            "amount": 98.38,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 124,
+            "userId": 3,
+            "date": "2026-02-15",
+            "amount": 163.16,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 125,
+            "userId": 3,
+            "date": "2026-01-18",
+            "amount": 36.17,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 126,
+            "userId": 3,
+            "date": "2026-02-03",
+            "amount": 167.97,
+            "category": "Healthcare",
+            "description": "Gym membership"
+        },
+        {
+            "id": 127,
+            "userId": 3,
+            "date": "2026-02-05",
+            "amount": 58.15,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 128,
+            "userId": 3,
+            "date": "2026-02-12",
+            "amount": 181.24,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 129,
+            "userId": 3,
+            "date": "2026-01-19",
+            "amount": 54.36,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 130,
+            "userId": 3,
+            "date": "2026-01-20",
+            "amount": 84.21,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 131,
+            "userId": 3,
+            "date": "2026-02-02",
+            "amount": 39.33,
+            "category": "Food",
+            "description": "Weekly groceries"
+        },
+        {
+            "id": 132,
+            "userId": 3,
+            "date": "2026-01-23",
+            "amount": 117.74,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 133,
+            "userId": 3,
+            "date": "2026-03-02",
+            "amount": 199.33,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 134,
+            "userId": 3,
+            "date": "2026-01-01",
+            "amount": 175.79,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 135,
+            "userId": 3,
+            "date": "2026-01-25",
+            "amount": 114.0,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 136,
+            "userId": 3,
+            "date": "2026-02-18",
+            "amount": 51.04,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 137,
+            "userId": 3,
+            "date": "2026-01-21",
+            "amount": 169.6,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 138,
+            "userId": 3,
+            "date": "2026-02-22",
+            "amount": 127.45,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 139,
+            "userId": 3,
+            "date": "2026-02-05",
+            "amount": 66.3,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 140,
+            "userId": 3,
+            "date": "2026-02-18",
+            "amount": 178.22,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 141,
+            "userId": 3,
+            "date": "2026-02-25",
+            "amount": 123.35,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 142,
+            "userId": 3,
+            "date": "2026-03-02",
+            "amount": 65.75,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 143,
+            "userId": 3,
+            "date": "2026-02-06",
+            "amount": 60.4,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 144,
+            "userId": 3,
+            "date": "2026-01-12",
+            "amount": 36.61,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 145,
+            "userId": 3,
+            "date": "2026-01-01",
+            "amount": 151.51,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 146,
+            "userId": 3,
+            "date": "2026-02-05",
+            "amount": 102.51,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 147,
+            "userId": 3,
+            "date": "2026-01-05",
+            "amount": 51.62,
+            "category": "Shopping",
+            "description": "Home decor"
+        },
+        {
+            "id": 148,
+            "userId": 3,
+            "date": "2026-01-05",
+            "amount": 57.93,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 149,
+            "userId": 3,
+            "date": "2026-01-19",
+            "amount": 102.11,
+            "category": "Healthcare",
+            "description": "Gym membership"
+        },
+        {
+            "id": 150,
+            "userId": 3,
+            "date": "2026-02-21",
+            "amount": 60.31,
+            "category": "Electronics",
+            "description": "Headphones"
+        },
+        {
+            "id": 151,
+            "userId": 4,
+            "date": "2026-01-03",
+            "amount": 26.24,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 152,
+            "userId": 4,
+            "date": "2026-02-12",
+            "amount": 122.13,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 153,
+            "userId": 4,
+            "date": "2026-01-12",
+            "amount": 34.16,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 154,
+            "userId": 4,
+            "date": "2026-02-10",
+            "amount": 102.58,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 155,
+            "userId": 4,
+            "date": "2026-01-01",
+            "amount": 197.39,
+            "category": "Healthcare",
+            "description": "Doctor visit"
+        },
+        {
+            "id": 156,
+            "userId": 4,
+            "date": "2026-02-05",
+            "amount": 165.97,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 157,
+            "userId": 4,
+            "date": "2026-01-16",
+            "amount": 106.78,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 158,
+            "userId": 4,
+            "date": "2026-02-10",
+            "amount": 145.9,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 159,
+            "userId": 4,
+            "date": "2026-01-25",
+            "amount": 134.38,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 160,
+            "userId": 4,
+            "date": "2026-01-02",
+            "amount": 136.99,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 161,
+            "userId": 4,
+            "date": "2026-01-30",
+            "amount": 120.72,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 162,
+            "userId": 4,
+            "date": "2026-01-26",
+            "amount": 162.23,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 163,
+            "userId": 4,
+            "date": "2026-03-01",
+            "amount": 43.1,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 164,
+            "userId": 4,
+            "date": "2026-02-11",
+            "amount": 131.16,
+            "category": "Healthcare",
+            "description": "Gym membership"
+        },
+        {
+            "id": 165,
+            "userId": 4,
+            "date": "2026-02-28",
+            "amount": 46.17,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 166,
+            "userId": 4,
+            "date": "2026-02-15",
+            "amount": 156.48,
+            "category": "Healthcare",
+            "description": "Doctor visit"
+        },
+        {
+            "id": 167,
+            "userId": 4,
+            "date": "2026-01-04",
+            "amount": 56.38,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 168,
+            "userId": 4,
+            "date": "2026-01-12",
+            "amount": 123.67,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 169,
+            "userId": 4,
+            "date": "2026-02-22",
+            "amount": 104.35,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 170,
+            "userId": 4,
+            "date": "2026-02-06",
+            "amount": 78.69,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 171,
+            "userId": 4,
+            "date": "2026-01-02",
+            "amount": 29.91,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 172,
+            "userId": 4,
+            "date": "2026-03-01",
+            "amount": 89.91,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 173,
+            "userId": 4,
+            "date": "2026-01-19",
+            "amount": 169.1,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 174,
+            "userId": 4,
+            "date": "2026-02-06",
+            "amount": 66.67,
+            "category": "Healthcare",
+            "description": "First aid kit"
+        },
+        {
+            "id": 175,
+            "userId": 4,
+            "date": "2026-02-17",
+            "amount": 124.86,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 176,
+            "userId": 4,
+            "date": "2026-01-30",
+            "amount": 77.04,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 177,
+            "userId": 4,
+            "date": "2026-02-08",
+            "amount": 91.91,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 178,
+            "userId": 4,
+            "date": "2026-01-13",
+            "amount": 168.89,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 179,
+            "userId": 4,
+            "date": "2026-01-30",
+            "amount": 187.89,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 180,
+            "userId": 4,
+            "date": "2026-01-21",
+            "amount": 172.13,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 181,
+            "userId": 4,
+            "date": "2026-01-10",
+            "amount": 153.1,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 182,
+            "userId": 4,
+            "date": "2026-02-09",
+            "amount": 65.25,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 183,
+            "userId": 4,
+            "date": "2026-01-23",
+            "amount": 108.73,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 184,
+            "userId": 4,
+            "date": "2026-02-19",
+            "amount": 126.02,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 185,
+            "userId": 4,
+            "date": "2026-02-16",
+            "amount": 34.28,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 186,
+            "userId": 4,
+            "date": "2026-02-17",
+            "amount": 36.19,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 187,
+            "userId": 4,
+            "date": "2026-01-21",
+            "amount": 53.91,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 188,
+            "userId": 4,
+            "date": "2026-02-06",
+            "amount": 195.53,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 189,
+            "userId": 4,
+            "date": "2026-01-13",
+            "amount": 133.79,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 190,
+            "userId": 4,
+            "date": "2026-01-22",
+            "amount": 101.01,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 191,
+            "userId": 4,
+            "date": "2026-01-13",
+            "amount": 80.63,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 192,
+            "userId": 4,
+            "date": "2026-02-26",
+            "amount": 50.86,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 193,
+            "userId": 4,
+            "date": "2026-01-09",
+            "amount": 111.49,
+            "category": "Electronics",
+            "description": "Headphones"
+        },
+        {
+            "id": 194,
+            "userId": 4,
+            "date": "2026-01-06",
+            "amount": 120.76,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 195,
+            "userId": 4,
+            "date": "2026-02-26",
+            "amount": 79.96,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 196,
+            "userId": 4,
+            "date": "2026-02-17",
+            "amount": 161.66,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 197,
+            "userId": 4,
+            "date": "2026-02-11",
+            "amount": 54.16,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 198,
+            "userId": 4,
+            "date": "2026-02-12",
+            "amount": 76.21,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 199,
+            "userId": 4,
+            "date": "2026-02-23",
+            "amount": 46.52,
+            "category": "Healthcare",
+            "description": "Gym membership"
+        },
+        {
+            "id": 200,
+            "userId": 4,
+            "date": "2026-01-29",
+            "amount": 99.16,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 201,
+            "userId": 5,
+            "date": "2026-02-22",
+            "amount": 35.17,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 202,
+            "userId": 5,
+            "date": "2026-02-25",
+            "amount": 112.13,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 203,
+            "userId": 5,
+            "date": "2026-02-09",
+            "amount": 101.76,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 204,
+            "userId": 5,
+            "date": "2026-02-08",
+            "amount": 12.59,
+            "category": "Healthcare",
+            "description": "First aid kit"
+        },
+        {
+            "id": 205,
+            "userId": 5,
+            "date": "2026-02-26",
+            "amount": 184.77,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 206,
+            "userId": 5,
+            "date": "2026-01-30",
+            "amount": 60.38,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 207,
+            "userId": 5,
+            "date": "2026-02-13",
+            "amount": 61.84,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 208,
+            "userId": 5,
+            "date": "2026-02-23",
+            "amount": 123.88,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 209,
+            "userId": 5,
+            "date": "2026-02-17",
+            "amount": 131.19,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 210,
+            "userId": 5,
+            "date": "2026-01-05",
+            "amount": 35.43,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 211,
+            "userId": 5,
+            "date": "2026-01-28",
+            "amount": 192.72,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 212,
+            "userId": 5,
+            "date": "2026-03-01",
+            "amount": 166.08,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 213,
+            "userId": 5,
+            "date": "2026-02-22",
+            "amount": 46.55,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 214,
+            "userId": 5,
+            "date": "2026-02-25",
+            "amount": 140.21,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 215,
+            "userId": 5,
+            "date": "2026-01-17",
+            "amount": 132.95,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 216,
+            "userId": 5,
+            "date": "2026-02-02",
+            "amount": 62.09,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 217,
+            "userId": 5,
+            "date": "2026-02-18",
+            "amount": 155.37,
+            "category": "Food",
+            "description": "Weekly groceries"
+        },
+        {
+            "id": 218,
+            "userId": 5,
+            "date": "2026-02-21",
+            "amount": 73.07,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 219,
+            "userId": 5,
+            "date": "2026-01-29",
+            "amount": 66.73,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 220,
+            "userId": 5,
+            "date": "2026-02-06",
+            "amount": 71.68,
+            "category": "Food",
+            "description": "Weekly groceries"
+        },
+        {
+            "id": 221,
+            "userId": 5,
+            "date": "2026-01-04",
+            "amount": 122.7,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 222,
+            "userId": 5,
+            "date": "2026-01-02",
+            "amount": 42.29,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 223,
+            "userId": 5,
+            "date": "2026-01-03",
+            "amount": 44.67,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 224,
+            "userId": 5,
+            "date": "2026-02-06",
+            "amount": 77.2,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 225,
+            "userId": 5,
+            "date": "2026-02-21",
+            "amount": 20.09,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 226,
+            "userId": 5,
+            "date": "2026-01-18",
+            "amount": 52.04,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 227,
+            "userId": 5,
+            "date": "2026-01-27",
+            "amount": 91.9,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 228,
+            "userId": 5,
+            "date": "2026-01-11",
+            "amount": 155.94,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 229,
+            "userId": 5,
+            "date": "2026-01-30",
+            "amount": 161.1,
+            "category": "Healthcare",
+            "description": "Gym membership"
+        },
+        {
+            "id": 230,
+            "userId": 5,
+            "date": "2026-01-19",
+            "amount": 129.13,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 231,
+            "userId": 5,
+            "date": "2026-02-23",
+            "amount": 77.59,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 232,
+            "userId": 5,
+            "date": "2026-02-20",
+            "amount": 125.45,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 233,
+            "userId": 5,
+            "date": "2026-02-28",
+            "amount": 159.53,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 234,
+            "userId": 5,
+            "date": "2026-02-17",
+            "amount": 197.42,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 235,
+            "userId": 5,
+            "date": "2026-01-21",
+            "amount": 16.39,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 236,
+            "userId": 5,
+            "date": "2026-02-18",
+            "amount": 7.65,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 237,
+            "userId": 5,
+            "date": "2026-02-04",
+            "amount": 154.36,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 238,
+            "userId": 5,
+            "date": "2026-02-14",
+            "amount": 52.59,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 239,
+            "userId": 5,
+            "date": "2026-01-30",
+            "amount": 196.15,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 240,
+            "userId": 5,
+            "date": "2026-01-23",
+            "amount": 55.29,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 241,
+            "userId": 5,
+            "date": "2026-01-31",
+            "amount": 199.32,
+            "category": "Healthcare",
+            "description": "First aid kit"
+        },
+        {
+            "id": 242,
+            "userId": 5,
+            "date": "2026-01-13",
+            "amount": 121.82,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 243,
+            "userId": 5,
+            "date": "2026-02-08",
+            "amount": 171.15,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 244,
+            "userId": 5,
+            "date": "2026-02-24",
+            "amount": 37.28,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 245,
+            "userId": 5,
+            "date": "2026-02-21",
+            "amount": 175.83,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 246,
+            "userId": 5,
+            "date": "2026-02-08",
+            "amount": 178.85,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 247,
+            "userId": 5,
+            "date": "2026-02-10",
+            "amount": 29.51,
+            "category": "Shopping",
+            "description": "Home decor"
+        },
+        {
+            "id": 248,
+            "userId": 5,
+            "date": "2026-02-08",
+            "amount": 156.28,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 249,
+            "userId": 5,
+            "date": "2026-02-16",
+            "amount": 125.2,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 250,
+            "userId": 5,
+            "date": "2026-01-09",
+            "amount": 131.94,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 251,
+            "userId": 6,
+            "date": "2026-02-16",
+            "amount": 107.99,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 252,
+            "userId": 6,
+            "date": "2026-02-08",
+            "amount": 29.1,
+            "category": "Electronics",
+            "description": "Headphones"
+        },
+        {
+            "id": 253,
+            "userId": 6,
+            "date": "2026-01-13",
+            "amount": 190.63,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 254,
+            "userId": 6,
+            "date": "2026-02-18",
+            "amount": 126.15,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 255,
+            "userId": 6,
+            "date": "2026-02-19",
+            "amount": 17.97,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 256,
+            "userId": 6,
+            "date": "2026-02-26",
+            "amount": 195.72,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 257,
+            "userId": 6,
+            "date": "2026-01-25",
+            "amount": 163.47,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 258,
+            "userId": 6,
+            "date": "2026-01-11",
+            "amount": 90.21,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 259,
+            "userId": 6,
+            "date": "2026-02-23",
+            "amount": 138.88,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 260,
+            "userId": 6,
+            "date": "2026-02-11",
+            "amount": 177.97,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 261,
+            "userId": 6,
+            "date": "2026-01-12",
+            "amount": 167.96,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 262,
+            "userId": 6,
+            "date": "2026-02-15",
+            "amount": 150.39,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 263,
+            "userId": 6,
+            "date": "2026-02-16",
+            "amount": 30.86,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 264,
+            "userId": 6,
+            "date": "2026-02-04",
+            "amount": 144.51,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 265,
+            "userId": 6,
+            "date": "2026-01-28",
+            "amount": 180.21,
+            "category": "Shopping",
+            "description": "Home decor"
+        },
+        {
+            "id": 266,
+            "userId": 6,
+            "date": "2026-01-02",
+            "amount": 19.43,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 267,
+            "userId": 6,
+            "date": "2026-01-16",
+            "amount": 47.55,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 268,
+            "userId": 6,
+            "date": "2026-01-07",
+            "amount": 21.9,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 269,
+            "userId": 6,
+            "date": "2026-02-27",
+            "amount": 98.67,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 270,
+            "userId": 6,
+            "date": "2026-02-21",
+            "amount": 99.65,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 271,
+            "userId": 6,
+            "date": "2026-01-09",
+            "amount": 114.02,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 272,
+            "userId": 6,
+            "date": "2026-02-25",
+            "amount": 55.7,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 273,
+            "userId": 6,
+            "date": "2026-02-05",
+            "amount": 105.7,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 274,
+            "userId": 6,
+            "date": "2026-01-01",
+            "amount": 174.52,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 275,
+            "userId": 6,
+            "date": "2026-01-12",
+            "amount": 81.3,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 276,
+            "userId": 6,
+            "date": "2026-01-06",
+            "amount": 138.9,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 277,
+            "userId": 6,
+            "date": "2026-02-05",
+            "amount": 67.6,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 278,
+            "userId": 6,
+            "date": "2026-01-13",
+            "amount": 97.34,
+            "category": "Healthcare",
+            "description": "First aid kit"
+        },
+        {
+            "id": 279,
+            "userId": 6,
+            "date": "2026-03-01",
+            "amount": 135.28,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 280,
+            "userId": 6,
+            "date": "2026-01-21",
+            "amount": 106.91,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 281,
+            "userId": 6,
+            "date": "2026-01-18",
+            "amount": 57.58,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 282,
+            "userId": 6,
+            "date": "2026-02-09",
+            "amount": 50.06,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 283,
+            "userId": 6,
+            "date": "2026-01-04",
+            "amount": 126.69,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 284,
+            "userId": 6,
+            "date": "2026-01-17",
+            "amount": 100.03,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 285,
+            "userId": 6,
+            "date": "2026-01-04",
+            "amount": 54.61,
+            "category": "Electronics",
+            "description": "Headphones"
+        },
+        {
+            "id": 286,
+            "userId": 6,
+            "date": "2026-02-07",
+            "amount": 129.87,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 287,
+            "userId": 6,
+            "date": "2026-02-02",
+            "amount": 152.15,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 288,
+            "userId": 6,
+            "date": "2026-01-26",
+            "amount": 116.73,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 289,
+            "userId": 6,
+            "date": "2026-01-11",
+            "amount": 11.14,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 290,
+            "userId": 6,
+            "date": "2026-01-17",
+            "amount": 117.09,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 291,
+            "userId": 6,
+            "date": "2026-01-06",
+            "amount": 128.23,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 292,
+            "userId": 6,
+            "date": "2026-02-27",
+            "amount": 184.4,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 293,
+            "userId": 6,
+            "date": "2026-01-31",
+            "amount": 109.7,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 294,
+            "userId": 6,
+            "date": "2026-02-26",
+            "amount": 185.93,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 295,
+            "userId": 6,
+            "date": "2026-02-23",
+            "amount": 125.82,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 296,
+            "userId": 6,
+            "date": "2026-01-25",
+            "amount": 32.76,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 297,
+            "userId": 6,
+            "date": "2026-02-07",
+            "amount": 144.64,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 298,
+            "userId": 6,
+            "date": "2026-02-07",
+            "amount": 109.57,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 299,
+            "userId": 6,
+            "date": "2026-01-25",
+            "amount": 107.27,
+            "category": "Food",
+            "description": "Weekly groceries"
+        },
+        {
+            "id": 300,
+            "userId": 6,
+            "date": "2026-03-01",
+            "amount": 192.69,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 301,
+            "userId": 7,
+            "date": "2026-02-07",
+            "amount": 125.31,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 302,
+            "userId": 7,
+            "date": "2026-02-01",
+            "amount": 89.96,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 303,
+            "userId": 7,
+            "date": "2026-02-20",
+            "amount": 119.32,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 304,
+            "userId": 7,
+            "date": "2026-02-09",
+            "amount": 73.27,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 305,
+            "userId": 7,
+            "date": "2026-01-23",
+            "amount": 109.16,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 306,
+            "userId": 7,
+            "date": "2026-01-13",
+            "amount": 119.2,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 307,
+            "userId": 7,
+            "date": "2026-01-02",
+            "amount": 143.77,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 308,
+            "userId": 7,
+            "date": "2026-02-23",
+            "amount": 159.25,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 309,
+            "userId": 7,
+            "date": "2026-02-24",
+            "amount": 92.71,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 310,
+            "userId": 7,
+            "date": "2026-02-25",
+            "amount": 88.66,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 311,
+            "userId": 7,
+            "date": "2026-02-03",
+            "amount": 92.87,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 312,
+            "userId": 7,
+            "date": "2026-02-14",
+            "amount": 108.4,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 313,
+            "userId": 7,
+            "date": "2026-02-11",
+            "amount": 22.11,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 314,
+            "userId": 7,
+            "date": "2026-01-27",
+            "amount": 21.11,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 315,
+            "userId": 7,
+            "date": "2026-02-05",
+            "amount": 92.39,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 316,
+            "userId": 7,
+            "date": "2026-01-15",
+            "amount": 29.97,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 317,
+            "userId": 7,
+            "date": "2026-01-05",
+            "amount": 29.14,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 318,
+            "userId": 7,
+            "date": "2026-02-18",
+            "amount": 131.97,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 319,
+            "userId": 7,
+            "date": "2026-01-23",
+            "amount": 90.48,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 320,
+            "userId": 7,
+            "date": "2026-01-13",
+            "amount": 55.43,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 321,
+            "userId": 7,
+            "date": "2026-01-17",
+            "amount": 179.19,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 322,
+            "userId": 7,
+            "date": "2026-01-14",
+            "amount": 70.8,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 323,
+            "userId": 7,
+            "date": "2026-02-23",
+            "amount": 155.61,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 324,
+            "userId": 7,
+            "date": "2026-03-02",
+            "amount": 76.64,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 325,
+            "userId": 7,
+            "date": "2026-01-15",
+            "amount": 44.94,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 326,
+            "userId": 7,
+            "date": "2026-02-21",
+            "amount": 158.87,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 327,
+            "userId": 7,
+            "date": "2026-01-24",
+            "amount": 19.7,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 328,
+            "userId": 7,
+            "date": "2026-02-15",
+            "amount": 124.34,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 329,
+            "userId": 7,
+            "date": "2026-01-16",
+            "amount": 167.16,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 330,
+            "userId": 7,
+            "date": "2026-01-04",
+            "amount": 14.0,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 331,
+            "userId": 7,
+            "date": "2026-01-30",
+            "amount": 49.42,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 332,
+            "userId": 7,
+            "date": "2026-01-24",
+            "amount": 175.11,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 333,
+            "userId": 7,
+            "date": "2026-02-05",
+            "amount": 159.49,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 334,
+            "userId": 7,
+            "date": "2026-02-09",
+            "amount": 103.48,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 335,
+            "userId": 7,
+            "date": "2026-01-28",
+            "amount": 163.44,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 336,
+            "userId": 7,
+            "date": "2026-02-26",
+            "amount": 54.36,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 337,
+            "userId": 7,
+            "date": "2026-02-18",
+            "amount": 124.62,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 338,
+            "userId": 7,
+            "date": "2026-01-08",
+            "amount": 169.03,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 339,
+            "userId": 7,
+            "date": "2026-02-13",
+            "amount": 135.21,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 340,
+            "userId": 7,
+            "date": "2026-01-03",
+            "amount": 111.25,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 341,
+            "userId": 7,
+            "date": "2026-01-14",
+            "amount": 81.89,
+            "category": "Food",
+            "description": "Weekly groceries"
+        },
+        {
+            "id": 342,
+            "userId": 7,
+            "date": "2026-02-17",
+            "amount": 191.94,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 343,
+            "userId": 7,
+            "date": "2026-02-28",
+            "amount": 120.42,
+            "category": "Electronics",
+            "description": "Headphones"
+        },
+        {
+            "id": 344,
+            "userId": 7,
+            "date": "2026-02-04",
+            "amount": 123.66,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 345,
+            "userId": 7,
+            "date": "2026-02-26",
+            "amount": 190.25,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 346,
+            "userId": 7,
+            "date": "2026-02-06",
+            "amount": 120.63,
+            "category": "Healthcare",
+            "description": "First aid kit"
+        },
+        {
+            "id": 347,
+            "userId": 7,
+            "date": "2026-02-15",
+            "amount": 138.13,
+            "category": "Electronics",
+            "description": "Headphones"
+        },
+        {
+            "id": 348,
+            "userId": 7,
+            "date": "2026-03-01",
+            "amount": 161.16,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 349,
+            "userId": 7,
+            "date": "2026-01-24",
+            "amount": 171.99,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 350,
+            "userId": 7,
+            "date": "2026-02-25",
+            "amount": 164.89,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 351,
+            "userId": 8,
+            "date": "2026-02-24",
+            "amount": 92.18,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 352,
+            "userId": 8,
+            "date": "2026-02-17",
+            "amount": 111.62,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 353,
+            "userId": 8,
+            "date": "2026-01-04",
+            "amount": 72.62,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 354,
+            "userId": 8,
+            "date": "2026-02-21",
+            "amount": 58.86,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 355,
+            "userId": 8,
+            "date": "2026-02-13",
+            "amount": 111.18,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 356,
+            "userId": 8,
+            "date": "2026-02-23",
+            "amount": 154.13,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 357,
+            "userId": 8,
+            "date": "2026-01-26",
+            "amount": 196.79,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 358,
+            "userId": 8,
+            "date": "2026-01-10",
+            "amount": 152.29,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 359,
+            "userId": 8,
+            "date": "2026-01-07",
+            "amount": 74.46,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 360,
+            "userId": 8,
+            "date": "2026-01-08",
+            "amount": 128.32,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 361,
+            "userId": 8,
+            "date": "2026-01-18",
+            "amount": 197.61,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 362,
+            "userId": 8,
+            "date": "2026-01-08",
+            "amount": 95.36,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 363,
+            "userId": 8,
+            "date": "2026-01-13",
+            "amount": 19.94,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 364,
+            "userId": 8,
+            "date": "2026-01-26",
+            "amount": 134.2,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 365,
+            "userId": 8,
+            "date": "2026-01-01",
+            "amount": 135.99,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 366,
+            "userId": 8,
+            "date": "2026-02-01",
+            "amount": 6.42,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 367,
+            "userId": 8,
+            "date": "2026-02-22",
+            "amount": 119.81,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 368,
+            "userId": 8,
+            "date": "2026-01-09",
+            "amount": 127.37,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 369,
+            "userId": 8,
+            "date": "2026-02-04",
+            "amount": 85.63,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 370,
+            "userId": 8,
+            "date": "2026-01-17",
+            "amount": 190.74,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 371,
+            "userId": 8,
+            "date": "2026-02-19",
+            "amount": 182.71,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 372,
+            "userId": 8,
+            "date": "2026-01-24",
+            "amount": 71.5,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 373,
+            "userId": 8,
+            "date": "2026-01-24",
+            "amount": 53.98,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 374,
+            "userId": 8,
+            "date": "2026-02-26",
+            "amount": 38.19,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 375,
+            "userId": 8,
+            "date": "2026-01-18",
+            "amount": 12.09,
+            "category": "Healthcare",
+            "description": "Doctor visit"
+        },
+        {
+            "id": 376,
+            "userId": 8,
+            "date": "2026-02-20",
+            "amount": 105.66,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 377,
+            "userId": 8,
+            "date": "2026-01-30",
+            "amount": 35.71,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 378,
+            "userId": 8,
+            "date": "2026-01-12",
+            "amount": 196.19,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 379,
+            "userId": 8,
+            "date": "2026-01-21",
+            "amount": 5.72,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 380,
+            "userId": 8,
+            "date": "2026-01-04",
+            "amount": 76.53,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 381,
+            "userId": 8,
+            "date": "2026-02-05",
+            "amount": 63.99,
+            "category": "Entertainment",
+            "description": "Movie tickets"
+        },
+        {
+            "id": 382,
+            "userId": 8,
+            "date": "2026-01-26",
+            "amount": 157.19,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 383,
+            "userId": 8,
+            "date": "2026-01-27",
+            "amount": 107.38,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 384,
+            "userId": 8,
+            "date": "2026-02-04",
+            "amount": 32.62,
+            "category": "Shopping",
+            "description": "Gift for friend"
+        },
+        {
+            "id": 385,
+            "userId": 8,
+            "date": "2026-01-13",
+            "amount": 26.93,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 386,
+            "userId": 8,
+            "date": "2026-01-19",
+            "amount": 30.14,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 387,
+            "userId": 8,
+            "date": "2026-01-04",
+            "amount": 47.64,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 388,
+            "userId": 8,
+            "date": "2026-01-11",
+            "amount": 88.38,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 389,
+            "userId": 8,
+            "date": "2026-03-01",
+            "amount": 49.57,
+            "category": "Healthcare",
+            "description": "First aid kit"
+        },
+        {
+            "id": 390,
+            "userId": 8,
+            "date": "2026-01-09",
+            "amount": 80.95,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 391,
+            "userId": 8,
+            "date": "2026-02-22",
+            "amount": 56.89,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 392,
+            "userId": 8,
+            "date": "2026-01-13",
+            "amount": 169.72,
+            "category": "Shopping",
+            "description": "Home decor"
+        },
+        {
+            "id": 393,
+            "userId": 8,
+            "date": "2026-01-25",
+            "amount": 18.56,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 394,
+            "userId": 8,
+            "date": "2026-02-13",
+            "amount": 156.37,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 395,
+            "userId": 8,
+            "date": "2026-02-18",
+            "amount": 105.54,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 396,
+            "userId": 8,
+            "date": "2026-02-02",
+            "amount": 171.43,
+            "category": "Shopping",
+            "description": "Clothing"
+        },
+        {
+            "id": 397,
+            "userId": 8,
+            "date": "2026-01-17",
+            "amount": 64.52,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 398,
+            "userId": 8,
+            "date": "2026-01-29",
+            "amount": 107.65,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 399,
+            "userId": 8,
+            "date": "2026-01-26",
+            "amount": 186.59,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 400,
+            "userId": 8,
+            "date": "2026-03-01",
+            "amount": 180.16,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 401,
+            "userId": 9,
+            "date": "2026-03-01",
+            "amount": 117.34,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 402,
+            "userId": 9,
+            "date": "2026-01-07",
+            "amount": 173.91,
+            "category": "Entertainment",
+            "description": "Book"
+        },
+        {
+            "id": 403,
+            "userId": 9,
+            "date": "2026-02-05",
+            "amount": 54.56,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 404,
+            "userId": 9,
+            "date": "2026-02-13",
+            "amount": 49.85,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 405,
+            "userId": 9,
+            "date": "2026-01-08",
+            "amount": 9.07,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 406,
+            "userId": 9,
+            "date": "2026-02-09",
+            "amount": 181.05,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 407,
+            "userId": 9,
+            "date": "2026-01-20",
+            "amount": 116.24,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 408,
+            "userId": 9,
+            "date": "2026-01-19",
+            "amount": 102.06,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 409,
+            "userId": 9,
+            "date": "2026-02-03",
+            "amount": 177.8,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 410,
+            "userId": 9,
+            "date": "2026-02-28",
+            "amount": 73.07,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 411,
+            "userId": 9,
+            "date": "2026-02-02",
+            "amount": 134.25,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 412,
+            "userId": 9,
+            "date": "2026-01-22",
+            "amount": 130.73,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 413,
+            "userId": 9,
+            "date": "2026-02-11",
+            "amount": 184.24,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 414,
+            "userId": 9,
+            "date": "2026-01-12",
+            "amount": 91.34,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 415,
+            "userId": 9,
+            "date": "2026-03-02",
+            "amount": 154.2,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 416,
+            "userId": 9,
+            "date": "2026-01-17",
+            "amount": 199.27,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 417,
+            "userId": 9,
+            "date": "2026-02-19",
+            "amount": 162.77,
+            "category": "Entertainment",
+            "description": "Streaming service"
+        },
+        {
+            "id": 418,
+            "userId": 9,
+            "date": "2026-01-21",
+            "amount": 147.39,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 419,
+            "userId": 9,
+            "date": "2026-02-23",
+            "amount": 131.8,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 420,
+            "userId": 9,
+            "date": "2026-01-12",
+            "amount": 35.65,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 421,
+            "userId": 9,
+            "date": "2026-01-07",
+            "amount": 119.83,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 422,
+            "userId": 9,
+            "date": "2026-02-19",
+            "amount": 88.88,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 423,
+            "userId": 9,
+            "date": "2026-01-07",
+            "amount": 42.93,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 424,
+            "userId": 9,
+            "date": "2026-02-22",
+            "amount": 29.75,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 425,
+            "userId": 9,
+            "date": "2026-02-03",
+            "amount": 143.16,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 426,
+            "userId": 9,
+            "date": "2026-01-19",
+            "amount": 36.27,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 427,
+            "userId": 9,
+            "date": "2026-02-28",
+            "amount": 6.51,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 428,
+            "userId": 9,
+            "date": "2026-02-20",
+            "amount": 9.52,
+            "category": "Electronics",
+            "description": "Headphones"
+        },
+        {
+            "id": 429,
+            "userId": 9,
+            "date": "2026-01-28",
+            "amount": 80.01,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 430,
+            "userId": 9,
+            "date": "2026-01-26",
+            "amount": 138.34,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 431,
+            "userId": 9,
+            "date": "2026-01-17",
+            "amount": 91.19,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 432,
+            "userId": 9,
+            "date": "2026-01-23",
+            "amount": 119.14,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 433,
+            "userId": 9,
+            "date": "2026-02-26",
+            "amount": 90.81,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 434,
+            "userId": 9,
+            "date": "2026-02-01",
+            "amount": 65.18,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 435,
+            "userId": 9,
+            "date": "2026-02-11",
+            "amount": 105.84,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 436,
+            "userId": 9,
+            "date": "2026-01-17",
+            "amount": 15.38,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 437,
+            "userId": 9,
+            "date": "2026-02-16",
+            "amount": 9.24,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 438,
+            "userId": 9,
+            "date": "2026-01-15",
+            "amount": 173.79,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 439,
+            "userId": 9,
+            "date": "2026-02-09",
+            "amount": 117.27,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 440,
+            "userId": 9,
+            "date": "2026-01-20",
+            "amount": 75.18,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 441,
+            "userId": 9,
+            "date": "2026-01-23",
+            "amount": 151.87,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 442,
+            "userId": 9,
+            "date": "2026-01-24",
+            "amount": 81.24,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 443,
+            "userId": 9,
+            "date": "2026-02-24",
+            "amount": 5.83,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 444,
+            "userId": 9,
+            "date": "2026-01-16",
+            "amount": 85.65,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 445,
+            "userId": 9,
+            "date": "2026-02-27",
+            "amount": 166.72,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 446,
+            "userId": 9,
+            "date": "2026-01-16",
+            "amount": 17.9,
+            "category": "Electronics",
+            "description": "Software license"
+        },
+        {
+            "id": 447,
+            "userId": 9,
+            "date": "2026-02-03",
+            "amount": 30.23,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 448,
+            "userId": 9,
+            "date": "2026-01-06",
+            "amount": 199.93,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 449,
+            "userId": 9,
+            "date": "2026-01-01",
+            "amount": 127.61,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 450,
+            "userId": 9,
+            "date": "2026-01-30",
+            "amount": 170.66,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 451,
+            "userId": 10,
+            "date": "2026-02-01",
+            "amount": 97.2,
+            "category": "Food",
+            "description": "Lunch with colleagues"
+        },
+        {
+            "id": 452,
+            "userId": 10,
+            "date": "2026-02-05",
+            "amount": 173.14,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 453,
+            "userId": 10,
+            "date": "2026-03-02",
+            "amount": 67.36,
+            "category": "Utilities",
+            "description": "Water bill"
+        },
+        {
+            "id": 454,
+            "userId": 10,
+            "date": "2026-01-01",
+            "amount": 123.48,
+            "category": "Electronics",
+            "description": "USB Drive"
+        },
+        {
+            "id": 455,
+            "userId": 10,
+            "date": "2026-01-04",
+            "amount": 180.45,
+            "category": "Shopping",
+            "description": "Shoes"
+        },
+        {
+            "id": 456,
+            "userId": 10,
+            "date": "2026-01-25",
+            "amount": 49.2,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 457,
+            "userId": 10,
+            "date": "2026-02-21",
+            "amount": 180.32,
+            "category": "Food",
+            "description": "Weekly groceries"
+        },
+        {
+            "id": 458,
+            "userId": 10,
+            "date": "2026-01-29",
+            "amount": 27.98,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 459,
+            "userId": 10,
+            "date": "2026-02-04",
+            "amount": 86.36,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 460,
+            "userId": 10,
+            "date": "2026-02-25",
+            "amount": 128.77,
+            "category": "Transport",
+            "description": "Train ticket"
+        },
+        {
+            "id": 461,
+            "userId": 10,
+            "date": "2026-01-17",
+            "amount": 158.25,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 462,
+            "userId": 10,
+            "date": "2026-02-10",
+            "amount": 194.51,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 463,
+            "userId": 10,
+            "date": "2026-01-14",
+            "amount": 178.9,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 464,
+            "userId": 10,
+            "date": "2026-02-11",
+            "amount": 79.92,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 465,
+            "userId": 10,
+            "date": "2026-01-11",
+            "amount": 189.55,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 466,
+            "userId": 10,
+            "date": "2026-01-15",
+            "amount": 132.42,
+            "category": "Healthcare",
+            "description": "Doctor visit"
+        },
+        {
+            "id": 467,
+            "userId": 10,
+            "date": "2026-02-22",
+            "amount": 34.22,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 468,
+            "userId": 10,
+            "date": "2026-02-01",
+            "amount": 163.94,
+            "category": "Entertainment",
+            "description": "Video game"
+        },
+        {
+            "id": 469,
+            "userId": 10,
+            "date": "2026-02-14",
+            "amount": 132.04,
+            "category": "Healthcare",
+            "description": "Vitamins"
+        },
+        {
+            "id": 470,
+            "userId": 10,
+            "date": "2026-01-09",
+            "amount": 61.51,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 471,
+            "userId": 10,
+            "date": "2026-01-17",
+            "amount": 196.46,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 472,
+            "userId": 10,
+            "date": "2026-01-07",
+            "amount": 119.09,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 473,
+            "userId": 10,
+            "date": "2026-02-09",
+            "amount": 25.51,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 474,
+            "userId": 10,
+            "date": "2026-02-13",
+            "amount": 48.79,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 475,
+            "userId": 10,
+            "date": "2026-02-12",
+            "amount": 184.47,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 476,
+            "userId": 10,
+            "date": "2026-01-06",
+            "amount": 197.09,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 477,
+            "userId": 10,
+            "date": "2026-02-13",
+            "amount": 188.9,
+            "category": "Electronics",
+            "description": "Charger cable"
+        },
+        {
+            "id": 478,
+            "userId": 10,
+            "date": "2026-01-25",
+            "amount": 111.87,
+            "category": "Healthcare",
+            "description": "Gym membership"
+        },
+        {
+            "id": 479,
+            "userId": 10,
+            "date": "2026-01-03",
+            "amount": 12.96,
+            "category": "Transport",
+            "description": "Parking fee"
+        },
+        {
+            "id": 480,
+            "userId": 10,
+            "date": "2026-01-27",
+            "amount": 56.22,
+            "category": "Utilities",
+            "description": "Electricity bill"
+        },
+        {
+            "id": 481,
+            "userId": 10,
+            "date": "2026-01-21",
+            "amount": 142.77,
+            "category": "Transport",
+            "description": "Gas refill"
+        },
+        {
+            "id": 482,
+            "userId": 10,
+            "date": "2026-01-08",
+            "amount": 196.15,
+            "category": "Transport",
+            "description": "Monthly bus pass"
+        },
+        {
+            "id": 483,
+            "userId": 10,
+            "date": "2026-02-14",
+            "amount": 181.32,
+            "category": "Utilities",
+            "description": "Heating"
+        },
+        {
+            "id": 484,
+            "userId": 10,
+            "date": "2026-01-27",
+            "amount": 176.95,
+            "category": "Food",
+            "description": "Coffee shop"
+        },
+        {
+            "id": 485,
+            "userId": 10,
+            "date": "2026-01-18",
+            "amount": 137.99,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 486,
+            "userId": 10,
+            "date": "2026-02-05",
+            "amount": 173.86,
+            "category": "Shopping",
+            "description": "Kitchenware"
+        },
+        {
+            "id": 487,
+            "userId": 10,
+            "date": "2026-01-17",
+            "amount": 29.95,
+            "category": "Utilities",
+            "description": "Phone bill"
+        },
+        {
+            "id": 488,
+            "userId": 10,
+            "date": "2026-02-13",
+            "amount": 110.99,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 489,
+            "userId": 10,
+            "date": "2026-02-05",
+            "amount": 138.17,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 490,
+            "userId": 10,
+            "date": "2026-02-07",
+            "amount": 146.83,
+            "category": "Electronics",
+            "description": "Keyboard"
+        },
+        {
+            "id": 491,
+            "userId": 10,
+            "date": "2026-01-07",
+            "amount": 12.34,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 492,
+            "userId": 10,
+            "date": "2026-01-29",
+            "amount": 142.99,
+            "category": "Transport",
+            "description": "Uber ride"
+        },
+        {
+            "id": 493,
+            "userId": 10,
+            "date": "2026-02-21",
+            "amount": 126.24,
+            "category": "Entertainment",
+            "description": "Concert"
+        },
+        {
+            "id": 494,
+            "userId": 10,
+            "date": "2026-02-07",
+            "amount": 82.81,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 495,
+            "userId": 10,
+            "date": "2026-02-27",
+            "amount": 187.75,
+            "category": "Shopping",
+            "description": "Home decor"
+        },
+        {
+            "id": 496,
+            "userId": 10,
+            "date": "2026-02-04",
+            "amount": 153.56,
+            "category": "Food",
+            "description": "Restaurant dinner"
+        },
+        {
+            "id": 497,
+            "userId": 10,
+            "date": "2026-02-11",
+            "amount": 105.41,
+            "category": "Utilities",
+            "description": "Internet subscription"
+        },
+        {
+            "id": 498,
+            "userId": 10,
+            "date": "2026-01-22",
+            "amount": 101.77,
+            "category": "Food",
+            "description": "Snacks"
+        },
+        {
+            "id": 499,
+            "userId": 10,
+            "date": "2026-02-21",
+            "amount": 182.73,
+            "category": "Healthcare",
+            "description": "Pharmacy"
+        },
+        {
+            "id": 500,
+            "userId": 10,
+            "date": "2026-01-22",
+            "amount": 106.21,
+            "category": "Shopping",
+            "description": "Shoes"
+        }
+    ]
+}
